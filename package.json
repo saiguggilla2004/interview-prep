@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "npm rebuild"
   },
   "dependencies": {
     "@ai-sdk/google": "^1.2.14",
@@ -22,6 +23,7 @@
     "dayjs": "^1.11.13",
     "firebase": "^11.6.1",
     "firebase-admin": "^13.3.0",
+    "lightningcss": "^1.22.0",
     "lucide-react": "^0.503.0",
     "next": "15.3.1",
     "next-themes": "^0.4.6",
@@ -47,6 +49,6 @@
     "typescript": "^5"
   },
   "resolutions": {
-  "lightningcss": "1.22.0"
-}
+    "lightningcss": "1.22.0"
+  }
 }

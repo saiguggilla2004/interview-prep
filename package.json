@@ -50,5 +50,9 @@
   },
   "resolutions": {
     "lightningcss": "1.22.0"
-  }
+  },
+  "engines": {
+  "node": "18.x"
+}
+
 }

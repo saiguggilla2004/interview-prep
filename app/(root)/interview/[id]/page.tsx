@@ -38,7 +38,7 @@ const user=await getCurrentUser();
         <p className='bg-dark-200 px-4 py-2 rounded-lg h-fit capitalize'>{interview.type}</p>
       </div>
 
-      <Agent userName={user?.name} interviewId={id} type="interview" questions={interview.questions}  userId={user?.id}/>
+      <Agent userName={user?.name || ""} interviewId={id} type="interview" questions={interview.questions}  userId={user?.id || ""}/>
     </>
   );
 }

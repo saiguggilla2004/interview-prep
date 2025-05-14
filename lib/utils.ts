@@ -29,3 +29,7 @@ export const getTechLogos = async (techArray: string[]) => {
 
   return logoURLs;
 };
+
+export const signOut=async ()=>{
+  console.log("Signing out...");
+}
